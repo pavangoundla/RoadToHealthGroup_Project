@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38462" started-at="2021-12-01T17:41:43 IST" finished-at="2021-12-01T17:42:21 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38462" started-at="2021-12-01T17:41:43 IST" finished-at="2021-12-01T17:42:21 IST">
+      <class name="SeleniumJavaFramework.ReachHealthTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="setUp" is-config="true" duration-ms="16722" started-at="2021-12-01T17:41:43 IST" finished-at="2021-12-01T17:42:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToReachHealthWithInvalidCredentials()[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="loginToReachHealthWithInvalidCredentials" duration-ms="3207" started-at="2021-12-01T17:42:00 IST" finished-at="2021-12-01T17:42:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToReachHealthWithInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="tearDown" is-config="true" duration-ms="296" started-at="2021-12-01T17:42:03 IST" finished-at="2021-12-01T17:42:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="setUp" is-config="true" duration-ms="9945" started-at="2021-12-01T17:42:03 IST" finished-at="2021-12-01T17:42:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToReachHealthWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="loginToReachHealthWithValidCredentials" duration-ms="6913" started-at="2021-12-01T17:42:13 IST" data-provider="getData" finished-at="2021-12-01T17:42:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pavan.goundla+2210@zenq.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pavan@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToReachHealthWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumJavaFramework.ReachHealthTests@10feca44]" name="tearDown" is-config="true" duration-ms="1285" started-at="2021-12-01T17:42:20 IST" finished-at="2021-12-01T17:42:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumJavaFramework.ReachHealthTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
